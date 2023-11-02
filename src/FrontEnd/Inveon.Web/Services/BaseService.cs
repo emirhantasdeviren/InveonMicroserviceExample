@@ -1,11 +1,11 @@
 using System.Net;
 using System.Text;
 using Inveon.Web.Models.Dto;
-using Inveon.Web.Service.IService;
+using Inveon.Web.Services.IService;
 using Newtonsoft.Json;
 using static Inveon.Web.Utility.SD;
 
-namespace Inveon.Web.Service;
+namespace Inveon.Web.Services;
 
 public class BaseService : IBaseService
 {

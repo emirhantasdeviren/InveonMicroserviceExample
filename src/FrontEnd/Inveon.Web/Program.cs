@@ -1,5 +1,5 @@
-using Inveon.Web.Service;
-using Inveon.Web.Service.IService;
+using Inveon.Web.Services;
+using Inveon.Web.Services.IService;
 using Inveon.Web.Utility;
 
 var builder = WebApplication.CreateBuilder(args);

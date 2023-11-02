@@ -1,6 +1,6 @@
 using Inveon.Web.Models.Dto;
 
-namespace Inveon.Web.Service.IService;
+namespace Inveon.Web.Services.IService;
 
 public interface IProductService
 {

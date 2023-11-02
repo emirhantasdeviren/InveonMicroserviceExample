@@ -1,9 +1,9 @@
 using Inveon.Web.Models.Dto;
-using Inveon.Web.Service.IService;
+using Inveon.Web.Services.IService;
 using Inveon.Web.Utility;
 using static Inveon.Web.Utility.SD;
 
-namespace Inveon.Web.Service;
+namespace Inveon.Web.Services;
 
 public class ProductService : IProductService
 {

@@ -1,5 +1,5 @@
 ﻿using Inveon.Web.Models.Dto;
-using Inveon.Web.Service.IService;
+using Inveon.Web.Services.IService;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
