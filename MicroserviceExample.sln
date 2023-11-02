@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{14
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inveon.Services.ProductsAPI", "src\Services\Inveon.Services.ProductsAPI\Inveon.Services.ProductsAPI.csproj", "{FE3BAFB7-B80B-42CE-8993-06B60E33191F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{7004A828-9829-4CCA-BFC4-CFB8CAD14EFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inveon.Web", "src\FrontEnd\Inveon.Web\Inveon.Web.csproj", "{A299B447-CF62-49D2-A19C-2A5B56A0209E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,9 +26,15 @@ Global
 		{FE3BAFB7-B80B-42CE-8993-06B60E33191F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE3BAFB7-B80B-42CE-8993-06B60E33191F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE3BAFB7-B80B-42CE-8993-06B60E33191F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A299B447-CF62-49D2-A19C-2A5B56A0209E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A299B447-CF62-49D2-A19C-2A5B56A0209E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A299B447-CF62-49D2-A19C-2A5B56A0209E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A299B447-CF62-49D2-A19C-2A5B56A0209E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{14789FC1-6754-4B8F-AFC4-D41D2EE4EEDE} = {7E255BB1-3EB2-4ABD-9E1F-4ED0F21DE256}
 		{FE3BAFB7-B80B-42CE-8993-06B60E33191F} = {14789FC1-6754-4B8F-AFC4-D41D2EE4EEDE}
+		{7004A828-9829-4CCA-BFC4-CFB8CAD14EFF} = {7E255BB1-3EB2-4ABD-9E1F-4ED0F21DE256}
+		{A299B447-CF62-49D2-A19C-2A5B56A0209E} = {7004A828-9829-4CCA-BFC4-CFB8CAD14EFF}
 	EndGlobalSection
 EndGlobal
