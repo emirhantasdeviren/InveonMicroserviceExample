@@ -1,7 +1,19 @@
+using Inveon.Web.Service;
+using Inveon.Web.Service.IService;
+using Inveon.Web.Utility;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddHttpClient();
+builder.Services.AddHttpClient<IProductService, ProductService>();
+
+SD.ProductApiBase = builder.Configuration["ServiceUrls:ProductAPI"];
+
+builder.Services.AddScoped<IBaseService, BaseService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 
 var app = builder.Build();
 
