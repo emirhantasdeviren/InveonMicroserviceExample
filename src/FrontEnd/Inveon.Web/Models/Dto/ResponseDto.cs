@@ -1,4 +1,4 @@
-﻿namespace Inveon.Services.ProductsAPI.Models.Dto;
+﻿namespace Inveon.Web.Models.Dto;
 
 public class ResponseDto
 {
